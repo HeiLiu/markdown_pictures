@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffd200;
+}
+.plane-wrapper {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  animation: dou 8s infinite alternate;
+}
+.rotate-container {
+  position: absolute;
+  top: 51.7003%;
+  left: 13.1%;
+  width: 27.424%;
+  height: 14.4474%;
+  animation: rotating 0.2s linear infinite;
+}
+.section-1.animation-out .plane-wrapper {
+  animation: plane-out 1.3s ease-out;
+  animation-fill-mode: forwards;
+}
